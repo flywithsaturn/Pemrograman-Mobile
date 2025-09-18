@@ -24,12 +24,14 @@ void main() {
   // var nav2 = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
   // print(nav2);
 
-  String login = 'Manager';
-  var nav2 = [
-    'Home',
-    'Furniture',
-    'Plants',
-    if (login == 'Staff') 'Inventory',
-  ];
-  print(nav2);
+  // Langkah 5
+  // String login = 'Manager';
+  // var nav2 = ['Home', 'Furniture', 'Plants', if (login == 'Staff') 'Inventory'];
+  // print(nav2);
+
+  // Langkah 6
+  var listOfInts = [1, 2, 3];
+  var listOfStrings = ['#0', for (var i in listOfInts) '#$i'];
+  assert(listOfStrings[1] == '#1');
+  print(listOfStrings);
 }
