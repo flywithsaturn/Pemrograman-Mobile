@@ -14,4 +14,13 @@ void main() {
   var nim = [2, 3, 4, 1, 7, 2, 0, 2, 1, 9]; // NIM: 2341720219
   var listNIM = [...nim]; 
   print("NIM: $listNIM");
+
+  // Tambahan kode nav dengan collection-if
+  bool promoActive = true; 
+  var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+  print(nav);
+
+  promoActive = false; 
+  var nav2 = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+  print(nav2);
 }
