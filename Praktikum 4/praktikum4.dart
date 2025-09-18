@@ -7,8 +7,11 @@ void main() {
 
   var list1 = [1, 2, null];  
   print(list1);              
-  var list3 = [0, ...?list1]; 
+  var list3 = [0, ...list1]; 
   print(list3.length);
+
+  // NIM menggunakan Spread Operator
+  var nim = [2, 3, 4, 1, 7, 2, 0, 2, 1, 9]; // NIM: 2341720219
+  var listNIM = [...nim]; 
+  print("NIM: $listNIM");
 }
-
-
