@@ -3,7 +3,7 @@ void main() {
   // print(record);
 
   // Record type annotation in a variable declaration: (Langkah 4)
-  (String, int) mahasiswa;
+  (String, int) mahasiswa = ('Satrio Wisnu Adi Pratama', 2341720219);
   print(mahasiswa);
 }
 
