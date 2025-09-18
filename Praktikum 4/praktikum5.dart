@@ -7,11 +7,11 @@ void main() {
   // print(mahasiswa);
 
   // Langkah 5
-  var mahasiswa2 = ('first', a: 2, b: true, 'last');
+var mahasiswa2 = ('Satrio Wisnu Adi Pratama', a: 2341720219, b: true, 'last');
 
-  print(mahasiswa2.$1); // Prints 'first'
-  print(mahasiswa2.a); // Prints 2
-  print(mahasiswa2.b); // Prints true
+  print(mahasiswa2.$1); // Prints 'Satrio Wisnu Adi Pratama '
+  print(mahasiswa2.a);  // Prints 2341720219
+  print(mahasiswa2.b);  // Prints true
   print(mahasiswa2.$2); // Prints 'last'
 }
 
