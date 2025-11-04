@@ -12,7 +12,7 @@ Buatlah sebuah project Flutter baru dengan nama **flutter_plugin_pubdev**.
 Kemudian jadikan repository di GitHub Anda dengan nama yang sama: **flutter_plugin_pubdev**.
 
 📸 **Screenshot:**
-![Langkah 1 - Membuat Project Baru](https://example.com/ss1.png)
+![Langkah 1 - Membuat Project Baru](images\ss1.png)
 
 ---
 
@@ -23,7 +23,7 @@ Tambahkan plugin **auto_size_text** menggunakan perintah berikut di terminal:
 Jika berhasil, maka nama plugin beserta versinya akan muncul pada file `pubspec.yaml` di bagian **dependencies**.
 
 📸 **Screenshot:**
-![Langkah 2 - Menambahkan Plugin](https://example.com/ss2.png)
+![Langkah 2 - Menambahkan Plugin](images/ss2.png)
 
 ---
 
@@ -33,7 +33,7 @@ Buat file baru bernama **red_text_widget.dart** di dalam folder `lib/`.
 Isi file tersebut dengan kode awal untuk membuat widget `RedTextWidget`.
 
 📸 **Screenshot:**
-![Langkah 3 - Membuat File red_text_widget.dart](https://example.com/ss3.png)
+![Langkah 3 - Membuat File red_text_widget.dart](images/ss3.png)
 
 ---
 
@@ -42,7 +42,7 @@ Isi file tersebut dengan kode awal untuk membuat widget `RedTextWidget`.
 Masih di file `red_text_widget.dart`, ubah bagian `return Container()` menjadi widget **AutoSizeText** dari plugin yang baru ditambahkan.
 
 📸 **Screenshot:**
-![Langkah 4 - Menambahkan AutoSizeText](https://example.com/ss4.png)
+![Langkah 4 - Menambahkan AutoSizeText](images/ss4.png)
 
 Setelah Anda menambahkan kode tersebut, akan muncul **error**.
 
@@ -62,7 +62,7 @@ Masalah ini akan diperbaiki pada langkah selanjutnya.
 Tambahkan variabel `text` serta parameter di constructor agar widget dapat menerima nilai teks dari luar.
 
 📸 **Screenshot:**
-![Langkah 5 - Menambahkan Variabel dan Constructor](https://example.com/screenshot5.png)
+![Langkah 5 - Menambahkan Variabel dan Constructor](images/screenshot5.png)
 
 Setelah langkah ini, error pada widget akan hilang karena variabel `text` kini sudah terdefinisi dan siap digunakan.
 
@@ -74,7 +74,7 @@ Buka file `main.dart`, lalu tambahkan kode berikut di dalam bagian `children:` p
 Kode ini menampilkan dua container untuk membandingkan tampilan teks biasa dengan teks yang menggunakan plugin **AutoSizeText**.
 
 📸 **Screenshot:**
-![Langkah 6 - Menambahkan Widget di main.dart](https://example.com/screenshot6.png)
+![Langkah 6 - Menambahkan Widget di main.dart](images/screenshot6.png)
 
 ---
 
@@ -83,7 +83,7 @@ Kode ini menampilkan dua container untuk membandingkan tampilan teks biasa denga
 Jalankan aplikasi menggunakan tombol **F5** atau perintah berikut:
 
 📸 **Screenshot Hasil Akhir:**
-![Langkah 7 - Hasil Akhir Aplikasi](https://example.com/screenshot7.png)
+![Langkah 7 - Hasil Akhir Aplikasi](images/screenshot7.png)
 
 Hasilnya:
 
