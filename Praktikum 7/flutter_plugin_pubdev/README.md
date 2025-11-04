@@ -1,7 +1,3 @@
-# flutter_plugin_pubdev
-
-A new Flutter project.
-
 # 🧩 Praktikum Flutter: Menerapkan Plugin di Project Flutter
 
 ## 📘 Deskripsi
@@ -16,7 +12,7 @@ Buatlah sebuah project Flutter baru dengan nama **flutter_plugin_pubdev**.
 Kemudian jadikan repository di GitHub Anda dengan nama yang sama: **flutter_plugin_pubdev**.
 
 📸 **Screenshot:**
-![Langkah 1 - Membuat Project Baru](https://example.com/screenshot1.png)
+![Langkah 1 - Membuat Project Baru](https://example.com/ss1.png)
 
 ---
 
@@ -27,7 +23,7 @@ Tambahkan plugin **auto_size_text** menggunakan perintah berikut di terminal:
 Jika berhasil, maka nama plugin beserta versinya akan muncul pada file `pubspec.yaml` di bagian **dependencies**.
 
 📸 **Screenshot:**
-![Langkah 2 - Menambahkan Plugin](https://example.com/screenshot2.png)
+![Langkah 2 - Menambahkan Plugin](https://example.com/ss2.png)
 
 ---
 
@@ -37,7 +33,7 @@ Buat file baru bernama **red_text_widget.dart** di dalam folder `lib/`.
 Isi file tersebut dengan kode awal untuk membuat widget `RedTextWidget`.
 
 📸 **Screenshot:**
-![Langkah 3 - Membuat File red_text_widget.dart](https://example.com/screenshot3.png)
+![Langkah 3 - Membuat File red_text_widget.dart](https://example.com/ss3.png)
 
 ---
 
@@ -46,7 +42,7 @@ Isi file tersebut dengan kode awal untuk membuat widget `RedTextWidget`.
 Masih di file `red_text_widget.dart`, ubah bagian `return Container()` menjadi widget **AutoSizeText** dari plugin yang baru ditambahkan.
 
 📸 **Screenshot:**
-![Langkah 4 - Menambahkan AutoSizeText](https://example.com/screenshot4.png)
+![Langkah 4 - Menambahkan AutoSizeText](https://example.com/ss4.png)
 
 Setelah Anda menambahkan kode tersebut, akan muncul **error**.
 
