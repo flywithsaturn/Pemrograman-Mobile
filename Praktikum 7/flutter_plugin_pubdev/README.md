@@ -12,7 +12,7 @@ Buatlah sebuah project Flutter baru dengan nama **flutter_plugin_pubdev**.
 Kemudian jadikan repository di GitHub Anda dengan nama yang sama: **flutter_plugin_pubdev**.
 
 📸 **Screenshot:**
-![Langkah 1 - Membuat Project Baru](images\ss1.png)
+![Langkah 1 - Membuat Project Baru](images/ss1.png)
 
 ---
 
@@ -62,7 +62,7 @@ Masalah ini akan diperbaiki pada langkah selanjutnya.
 Tambahkan variabel `text` serta parameter di constructor agar widget dapat menerima nilai teks dari luar.
 
 📸 **Screenshot:**
-![Langkah 5 - Menambahkan Variabel dan Constructor](images/screenshot5.png)
+![Langkah 5 - Menambahkan Variabel dan Constructor](images/ss5.png)
 
 Setelah langkah ini, error pada widget akan hilang karena variabel `text` kini sudah terdefinisi dan siap digunakan.
 
@@ -74,7 +74,7 @@ Buka file `main.dart`, lalu tambahkan kode berikut di dalam bagian `children:` p
 Kode ini menampilkan dua container untuk membandingkan tampilan teks biasa dengan teks yang menggunakan plugin **AutoSizeText**.
 
 📸 **Screenshot:**
-![Langkah 6 - Menambahkan Widget di main.dart](images/screenshot6.png)
+![Langkah 6 - Menambahkan Widget di main.dart](images/ss6.png)
 
 ---
 
@@ -83,7 +83,7 @@ Kode ini menampilkan dua container untuk membandingkan tampilan teks biasa denga
 Jalankan aplikasi menggunakan tombol **F5** atau perintah berikut:
 
 📸 **Screenshot Hasil Akhir:**
-![Langkah 7 - Hasil Akhir Aplikasi](images/screenshot7.png)
+![Langkah 7 - Hasil Akhir Aplikasi](images/ssrun.png)
 
 Hasilnya:
 
