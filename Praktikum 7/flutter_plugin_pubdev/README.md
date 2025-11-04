@@ -78,11 +78,6 @@ Langkah ini dilakukan untuk memberikan **parameter input** pada widget `RedTextW
 Dengan menambahkan variabel `text` dan constructor, kita dapat mengirim nilai teks dari luar widget saat widget tersebut digunakan.  
 Hal ini membuat widget menjadi **reusable (dapat digunakan kembali)** dengan teks yang berbeda-beda tanpa perlu menulis ulang kode di dalamnya.
 
-Contohnya:
-
-```dart
-RedTextWidget(text: 'Hello World');
-
 ---
 
 ## 🧩 Langkah 6: Menambahkan Widget di `main.dart`
@@ -98,17 +93,20 @@ Kode ini menampilkan dua container untuk membandingkan tampilan teks biasa denga
 Pada langkah ini, terdapat **dua widget** yang ditambahkan untuk **perbandingan tampilan teks**:
 
 ### 1. `RedTextWidget`
+
 - Menggunakan plugin **AutoSizeText** di dalamnya.
 - Teks berwarna **merah**, **otomatis menyesuaikan ukuran** sesuai ruang (`maxLines: 2`).
 - Jika teks terlalu panjang, akan muncul tanda **ellipsis (`...`)**.
 - Bersifat **dinamis dan responsif**.
 
 ### 2. `Text` biasa
+
 - Merupakan widget bawaan Flutter tanpa fitur penyesuaian otomatis.
 - Teks **tidak akan mengecil otomatis** jika ruang tampilan terbatas.
 - Bersifat **statis**.
 
 ### 🔍 Kesimpulan Perbedaan
+
 `RedTextWidget` lebih **fleksibel dan adaptif** karena menggunakan plugin **auto_size_text**, sedangkan `Text` biasa hanya menampilkan teks dengan **ukuran tetap**.
 
 ---
@@ -144,4 +142,7 @@ Dari praktikum ini dapat disimpulkan bahwa:
 - [Flutter Official Documentation](https://docs.flutter.dev)
 
 ---
+
+```
+
 ```
