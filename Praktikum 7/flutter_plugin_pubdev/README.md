@@ -25,6 +25,12 @@ Jika berhasil, maka nama plugin beserta versinya akan muncul pada file `pubspec.
 📸 **Screenshot:**
 ![Langkah 2 - Menambahkan Plugin](images/ss2.png)
 
+### 💡 Penjelasan Langkah 2:
+
+Langkah ini bertujuan untuk **menambahkan dependensi (library pihak ketiga)** ke dalam proyek Flutter.  
+Plugin **auto_size_text** berasal dari [pub.dev](https://pub.dev/packages/auto_size_text) dan berfungsi untuk membuat teks menyesuaikan ukuran secara otomatis agar tetap muat di dalam batas area yang tersedia.  
+Tanpa plugin ini, teks panjang bisa meluap atau terpotong secara tidak proporsional.
+
 ---
 
 ## 🧱 Langkah 3: Membuat File `red_text_widget.dart`
@@ -66,15 +72,44 @@ Tambahkan variabel `text` serta parameter di constructor agar widget dapat mener
 
 Setelah langkah ini, error pada widget akan hilang karena variabel `text` kini sudah terdefinisi dan siap digunakan.
 
+### 💡 Penjelasan Langkah 5:
+
+Langkah ini dilakukan untuk memberikan **parameter input** pada widget `RedTextWidget`.  
+Dengan menambahkan variabel `text` dan constructor, kita dapat mengirim nilai teks dari luar widget saat widget tersebut digunakan.  
+Hal ini membuat widget menjadi **reusable (dapat digunakan kembali)** dengan teks yang berbeda-beda tanpa perlu menulis ulang kode di dalamnya.
+
+Contohnya:
+
+```dart
+RedTextWidget(text: 'Hello World');
+
 ---
 
 ## 🧩 Langkah 6: Menambahkan Widget di `main.dart`
 
-Buka file `main.dart`, lalu tambahkan kode berikut di dalam bagian `children:` pada class `_MyHomePageState`.  
+Buka file `main.dart`, lalu tambahkan kode berikut di dalam bagian `children:` pada class `_MyHomePageState`.
 Kode ini menampilkan dua container untuk membandingkan tampilan teks biasa dengan teks yang menggunakan plugin **AutoSizeText**.
 
 📸 **Screenshot:**
 ![Langkah 6 - Menambahkan Widget di main.dart](images/ss6.png)
+
+## 💡 Penjelasan Langkah 6
+
+Pada langkah ini, terdapat **dua widget** yang ditambahkan untuk **perbandingan tampilan teks**:
+
+### 1. `RedTextWidget`
+- Menggunakan plugin **AutoSizeText** di dalamnya.
+- Teks berwarna **merah**, **otomatis menyesuaikan ukuran** sesuai ruang (`maxLines: 2`).
+- Jika teks terlalu panjang, akan muncul tanda **ellipsis (`...`)**.
+- Bersifat **dinamis dan responsif**.
+
+### 2. `Text` biasa
+- Merupakan widget bawaan Flutter tanpa fitur penyesuaian otomatis.
+- Teks **tidak akan mengecil otomatis** jika ruang tampilan terbatas.
+- Bersifat **statis**.
+
+### 🔍 Kesimpulan Perbedaan
+`RedTextWidget` lebih **fleksibel dan adaptif** karena menggunakan plugin **auto_size_text**, sedangkan `Text` biasa hanya menampilkan teks dengan **ukuran tetap**.
 
 ---
 
@@ -83,7 +118,7 @@ Kode ini menampilkan dua container untuk membandingkan tampilan teks biasa denga
 Jalankan aplikasi menggunakan tombol **F5** atau perintah berikut:
 
 📸 **Screenshot Hasil Akhir:**
-![Langkah 7 - Hasil Akhir Aplikasi](images/ssrun.png)
+![Hasil Akhir Aplikasi](images/ssrun.png)
 
 Hasilnya:
 
@@ -109,3 +144,4 @@ Dari praktikum ini dapat disimpulkan bahwa:
 - [Flutter Official Documentation](https://docs.flutter.dev)
 
 ---
+```
