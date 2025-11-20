@@ -52,9 +52,6 @@ Menerapkan mekanisme pemilihan filter warna melalui *carousel* untuk memodifikas
 - Mengintegrasikan alur aplikasi sehingga setelah foto diambil, pengguna langsung diarahkan ke halaman filter.
 
 ### 3.3 Hasil
-**Tangkapan layar hasil implementasi filter carousel:**
-
-![Filter Carousel](photo_filter_carousel/images/ss1.jpg)
 
 ---
 
@@ -67,6 +64,8 @@ Alur aplikasi yang telah diterapkan:
 2. Pengguna mengambil gambar menggunakan tombol kamera.
 3. Hasil foto disimpan sebagai file sementara (`XFile`).
 4. Aplikasi menampilkan halaman filter (`PhotoFilterCarousel`) untuk memungkinkan pengguna memilih filter warna.
+
+**Tangkapan layar hasil implementasi filter carousel:**
 
 ### 4.2 Hasil
 ![Tugas JB09_3](photo_filter_carousel/images/ss2.jpg)  
